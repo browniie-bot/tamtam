@@ -14,7 +14,7 @@
     "db:types": "npx supabase@2 gen types typescript --linked > types/database.ts && cp types/database.ts tamtam-app/lib/database.types.ts"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.98.0",
+    "@anthropic-ai/sdk": "^1.6.0",
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",
     "@dnd-kit/utilities": "^3.2.2",
